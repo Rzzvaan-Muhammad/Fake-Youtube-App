@@ -15,7 +15,7 @@ const Header = (props) => {
           <img alt="Youtube-logo" src={logo}></img>
         </a>
       </div>
-      <SearchBar handleSearch={props.handleSubmit} />
+      <SearchBar handleSearch={props.handleSearch} />
       <NavList />
     </header>
   );
