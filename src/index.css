@@ -229,34 +229,40 @@ a {
   }
   .Details {
     position: absolute;
-    top: 140%;
+    top: 78%;
     left: 1%;
-    width: 65%;
+    width: 55%;
+  }
+  .Details p {
+    width: 95%;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .videoPanal {
     top: 14%;
-    left: 8%;
+    left: 4%;
   }
   .Details {
     position: absolute;
-    top: 44%;
+    top: 55%;
     left: 4%;
     width: 90%;
   }
-
+  .Details p {
+    margin-top: 2%;
+    width: 95%;
+  }
   .videoPanal iframe {
-    width: 700px;
+    width: 600px;
     height: 260px;
   }
   .videoList {
     position: absolute;
-    top: 68%;
-    width: 100%;
+    top: 78%;
+    width: 90%;
     height: auto;
-    margin-left: 5%;
+    left: 1%;
   }
   .list-panal {
     float: left;
@@ -278,7 +284,7 @@ a {
   }
   .searchbar,
   input {
-    width: 92%;
+    width: 80%;
     height: 2%;
     font-family: sans-serif;
     font-size: 75%;
@@ -303,14 +309,24 @@ a {
   }
   .videoList {
     position: absolute;
-    top: 58%;
-    width: 100%;
+    top: 68%;
+    width: 90%;
     height: auto;
   }
   .list-panal {
     float: left;
-    margin-left: 1.5%;
+    margin-left: 1%;
     margin-top: 0.5%;
+  }
+
+  .Details {
+    top: 45%;
+    left: 1%;
+    width: 95%;
+  }
+  .Details p {
+    margin-top: 2%;
+    width: 95%;
   }
   .icon-list ul {
     position: absolute;
@@ -322,24 +338,24 @@ a {
   .icon-list ion-icon {
     font-size: 85%;
   }
+
   .searchbar {
     margin-top: 1%;
   }
   .searchbar,
   input {
-    width: 92%;
-    height: 2%;
+    width: 60%;
+    /* height: 2%; */
     font-family: sans-serif;
     font-size: 75%;
     padding: 0.5%;
   }
   .searchbar button {
-    padding: 0 2%;
     border: 1px gray solid;
     border-radius: 5%;
   }
   .searchbar button ion-icon {
-    font-size: 65%;
+    font-size: 55%;
   }
   .icon img {
     width: 25%;
@@ -353,12 +369,13 @@ a {
   .videoList {
     position: absolute;
     top: 70%;
-    width: 95%;
+    left: 1%;
+    width: 90%;
     height: auto;
   }
   .list-panal {
     float: left;
-    margin-left: 1.5%;
+    margin-left: 1%;
     margin-top: 0.5%;
   }
 
@@ -377,11 +394,11 @@ a {
   }
   .searchbar,
   input {
-    width: 92%;
+    width: 70%;
     height: 2%;
     font-family: sans-serif;
     font-size: 75%;
-    padding: 0.5%;
+    padding: 1%;
   }
   .searchbar button {
     padding: 0 2%;
@@ -393,5 +410,14 @@ a {
   }
   .icon img {
     width: 25%;
+  }
+  .Details {
+    top: 45%;
+    left: 1%;
+    width: 95%;
+  }
+  .Details p {
+    margin-top: 2%;
+    width: 95%;
   }
 }
