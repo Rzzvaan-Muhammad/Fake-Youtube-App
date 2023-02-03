@@ -11,6 +11,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   #cname: rizwan-muhammad-youtube.netlify.app
    baseUrl: /Fake-Youtube-App
+   - name: rizwan-muhammad-youtube
    navbar:
     - title: Status
       href: /
