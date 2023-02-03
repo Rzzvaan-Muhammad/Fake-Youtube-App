@@ -3,7 +3,7 @@ owner: Rzzvaan-Muhammad # Your GitHub organization or username, where this repos
 repo: Fake-Youtube-App # The name of this repository
 
 sites:
-  - name: rizwan-muhammad-youtube
+  - name: Fake-Youtube-App
     url: https://rizwan-muhammad-youtube.netlify.app
 
 status-website:
