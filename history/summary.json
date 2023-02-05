@@ -1,1 +1,20 @@
-[ ]
+[
+  {
+    "name": "Fake-Youtube-App",
+    "url": "https://rizwan-muhammad-youtube.netlify.app",
+    "icon": "https://icons.duckduckgo.com/ip3/rizwan-muhammad-youtube.netlify.app.ico",
+    "slug": "fake-youtube-app",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 322,
+    "timeDay": 436,
+    "timeWeek": 322,
+    "timeMonth": 322,
+    "timeYear": 322,
+    "dailyMinutesDown": {}
+  }
+]
