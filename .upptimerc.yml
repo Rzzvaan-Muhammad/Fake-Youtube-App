@@ -12,7 +12,7 @@ status-website:
   #cname: rizwan-muhammad-youtube.netlify.app
 baseUrl: /Fake-Youtube-App
 navbar:
-  - title: Status
-    href: /
-  - title: GitHub
-    href: https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App
+   - title: Status
+     href: /
+   - title: GitHub
+     href: https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App
