@@ -8,7 +8,6 @@ sites:
 
 notifications:
   - name: Slack Notification on Test Failure
-    if: ${{ failure() }}
     uses: ravsamhq/notify-slack-action@v1
     with:
       status: ${{ job.status }}
