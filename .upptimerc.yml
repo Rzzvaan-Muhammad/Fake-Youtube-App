@@ -8,12 +8,12 @@ sites:
 
 notifications:
   - name: Slack Notification
-        if: ${{ failure() }}
-        when:
-        options:
-          webhook_url: {{ env.NOTIFICATION_SLACK_WEBHOOK_URL }}
-          channel: "#slack-notice"
-          message: "{emoji} *{workflow}* {status_message} in <{repo_url}|{repo}>"
+      if: ${{ failure() }}
+      when:
+      options:
+        webhook_url: {{ env.NOTIFICATION_SLACK_WEBHOOK_URL }}
+        channel: "#slack-notice"
+        message: "{emoji} *{workflow}* {status_message} in <{repo_url}|{repo}>"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
