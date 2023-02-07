@@ -7,13 +7,18 @@ sites:
     url: https://rizwan-muhammad-youtube.netlify.app
 
 notifications:
-  - name: Slack Notification
+  - name: Slack Notification on Test Failure
     if: ${{ failure() }}
-    when:
-      options:
-        webhook_url: {{ secrets.NOTIFICATION_SLACK_WEBHOOK_URL }}
-        channel: "#slack-notice"
-        message: "{emoji} *{workflow}* {status_message} in <{repo_url}|{repo}>"
+    uses: ravsamhq/notify-slack-action@v1
+    with:
+      status: ${{ job.status }}
+      token: ${{ secrets.GH_PAT }}
+      notify_when: 'failure'
+      notification_title: "E2E {workflow} triggered by *${{ github.event.action }}* has {status_message}"
+      message_format: "{emoji} *{workflow}* {status_message} | <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Test Result>"
+      footer: "Linked Repo: <{repo_url}|{repo}>"
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.NOTIFICATION_SLACK_WEBHOOK_URL }}
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
