@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/rizwan-muhammad-youtube.netlify.app.ico",
     "slug": "fake-youtube-app",
     "status": "down",
-    "uptime": "63.11%",
+    "uptime": "63.05%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "7.96%",
     "uptimeYear": "0.00%",
-    "time": 117,
-    "timeDay": 154,
-    "timeWeek": 178,
-    "timeMonth": 154,
+    "time": 116,
+    "timeDay": 82,
+    "timeWeek": 177,
+    "timeMonth": 156,
     "timeYear": 112,
     "dailyMinutesDown": {
-      "2026-03-01": 67,
+      "2026-03-02": 60,
+      "2026-03-01": 1440,
       "2026-02-28": 1440,
       "2026-02-27": 1440,
       "2026-02-26": 1440,
@@ -379,8 +380,7 @@
       "2025-03-06": 1440,
       "2025-03-05": 1440,
       "2025-03-04": 1440,
-      "2025-03-03": 1440,
-      "2025-03-02": 1440
+      "2025-03-03": 1440
     }
   }
 ]
