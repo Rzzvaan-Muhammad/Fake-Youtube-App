@@ -73,10 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 This repository contains the open-source uptime monitor and status page for [Muhammd Rizwan](https://Rzzvaan-Muhammad.github.io/Fake-Youtube-App), powered by [Upptime](https://github.com/upptime/upptime).
 
-[![Uptime CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Uptime%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions?query=workflow%3A%22Uptime+CI%22)
-[![Response Time CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Response%20Time%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions?query=workflow%3A%22Response+Time+CI%22)
+[![Uptime CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Uptime%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions/workflows/uptime.yml)
+[![Response Time CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Response%20Time%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions/workflows/response-time.yml)
 [![Graphs CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Graphs%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions/workflows/graphs.yml)
-[![Static Site CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Static%20Site%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions?query=workflow%3A%22Static+Site+CI%22)
-[![Summary CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Summary%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions?query=workflow%3A%22Summary+CI%22)
+[![Static Site CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Static%20Site%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions/workflows/site.yml)
+[![Summary CI](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/workflows/Summary%20CI/badge.svg)](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions/workflows/summary.yml)
 
 With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository. We use [Issues](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/issues) as incident reports, [Actions](https://github.com/Rzzvaan-Muhammad/Fake-Youtube-App/actions) as uptime monitors, and [Pages](https://Rzzvaan-Muhammad.github.io/Fake-Youtube-App) for the status page.
